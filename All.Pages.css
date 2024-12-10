@@ -1,15 +1,3 @@
-.nav {
-    background-color: orange;
-    padding-top: 1%;
-    padding-bottom: 1%;
-    width: 100%;
-    text-align: center;
-}
-
-.nav a {
-    padding: 1%;
-}
-
 body {
     background-image: url("https://m.media-amazon.com/images/S/pv-target-images/2ec875a0c2b336ba59afe082786293163cb797807440abaa9a5fa39e5cb4fe6f.jpg");
     background-repeat: no-repeat;
@@ -22,11 +10,23 @@ body {
     height: 33.3%;
 }
 .c2 {
-    width: 50%;
+    width: 33.3%;
     height: 100%;
     position: relative;
     float: left;
 }
+
+.r2 {
+    width: 100%;
+    height: 50%;
+}
+.c9 {
+    width: 11.1%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
 .Titel {
     text-align: center;
     font-size: 5em;
