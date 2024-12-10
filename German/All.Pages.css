@@ -10,14 +10,14 @@ body {
     height: 50%;
 }
 
-.c9 {
-    width: 11.1%;
+.c10 {
+    width: 10%;
     height: 100%;
     position: relative;
     float: left;
 }
 
-Titel {
+.Titel {
     text-align: center;
     font-size: 5em;
     color: red;
@@ -119,6 +119,17 @@ Titel {
 }
 
 .S9 {
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: "Roboto", sans-serif;
+}
+
+.Home {
     text-align: center;
     font-size: 1.5em;
     color: red;
