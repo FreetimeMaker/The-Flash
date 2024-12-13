@@ -69,3 +69,17 @@ img:hover {
     text-decoration-color: orange;
     font-family: "Roboto", sans-serif;
 }
+
+footer {
+    text-align: center;
+    font-size: 5em;
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: white;
+    font-family: "Playwrite AT", cursive;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.125px;
+}
+ 
