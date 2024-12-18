@@ -10,8 +10,8 @@ body {
     height: 50%;
 }
 
-.c1 {
-    width: 100%;
+.c3 {
+    width: 33.3%;
     height: 100%;
     position: relative;
     float: left;
@@ -70,4 +70,15 @@ footer {
     font-family: "Playwrite AT", cursive;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 0.125px;
+}
+
+.Home {
+    text-align: center;
+    font-size: 1em;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: "Roboto", sans-serif;
 }
