@@ -5,13 +5,13 @@ body {
     background-size: cover;
 }
 
-.r3 {
+.r2 {
     width: 100%;
-    height: 33.3%;
+    height: 50%;
 }
 
-.c3 {
-    width: 33.3%;
+.c2 {
+    width: 50%;
     height: 100%;
     position: relative;
     float: left;
