@@ -1,0 +1,56 @@
+body {
+    background-image: url("https://m.media-amazon.com/images/S/pv-target-images/2ec875a0c2b336ba59afe082786293163cb797807440abaa9a5fa39e5cb4fe6f.jpg");
+    background-repeat: no-repeat;
+    position: center;
+    background-size: cover;
+}
+
+.r2 {
+    width: 100%;
+    height: 50%;
+}
+
+.c2 {
+    width: 50%;
+    height: 100%;
+    position: relative;
+    float: left;
+}
+
+.Titel {
+    text-align: center;
+    font-size: 5em;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: "Playwrite AT", cursive;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.125px;
+}
+
+.Zuruck {
+    text-align: center;
+    font-size: 1em;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: "Roboto", sans-serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 1.5em;
+    color: blue;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: "Playwrite AT", cursive;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0.125px;
+
+}
