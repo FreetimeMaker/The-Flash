@@ -32,7 +32,23 @@
       <a class="Zuruck" href="../index.html">Staffel 1</a>
     </div>
     <div class="c2">
-      <IFRAME SRC="https://dropload.io/e/lbxmowpxcv3x" FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen></IFRAME>
+  <select id="websiteSelector" onchange="loadIframe()">
+    <option value="">-- Select a Website --</option>
+    <option value="https://dropload.io/e/lbxmowpxcv3x FRAMEBORDER=0 MARGINWIDTH=0 MARGINHEIGHT=0 SCROLLING=NO WIDTH=640 HEIGHT=360 allowfullscreen">Dropload</option>
+    <option value="https://voe.sx/e/clfnuw1jqeo4" width="560" height="315" allowfullscreen allowtransparency allow="autoplay" scrolling="no" frameborder="0">Voe</option>
+  </select>
+  
+  <!-- Iframe -->
+  <iframe id="iframe" src="" width="600" height="400" style="border: 1px solid #ccc; margin-top: 20px;"></iframe>
+  
+  <script>
+    // JavaScript function to load the selected URL into the iframe
+    function loadIframe() {
+      const selector = document.getElementById('websiteSelector');
+      const iframe = document.getElementById('iframe');
+      iframe.src = selector.value; // Set the iframe's source to the selected value
+    }
+  </script>
     </div>
   </div>
   <footer>

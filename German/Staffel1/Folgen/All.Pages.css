@@ -54,3 +54,14 @@ footer {
     -webkit-text-stroke-width: 0.125px;
 
 }
+
+label {
+    text-align: center;
+    font-size: 1em;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: "Roboto", sans-serif;
+}
