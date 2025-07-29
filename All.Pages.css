@@ -70,6 +70,17 @@ img:hover {
     font-family: "Pixelify Sans", sans-serif;
 }
 
+.Snap {
+    text-align: center;
+    font-size: 1.5em;
+    color: red;
+    font-weight: bold;
+    font-style: italic;
+    text-decoration: underline;
+    text-decoration-color: orange;
+    font-family: "Pixelify Sans", sans-serif;
+}
+
 footer {
     text-align: center;
     font-size: 1.5em;
