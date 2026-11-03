@@ -60,7 +60,8 @@ test("preserves original homepage markup and page-specific styles", async () => 
     await fetch(base + "/German/Staffel1/Folgen/Folge2.html")
   ).text();
   assert.match(episode, /class="c2"/);
-  assert.match(episode, /width:640px;height:360px/);
+  assert.match(episode, /class="player-mount"/);
+  assert.match(episode, /class="episode-page"/);
   assert.match(episode, /data-vjs-player/);
   assert.doesNotMatch(episode, /<iframe/i);
   assert.equal((await fetch(base + "/legacy/package.json")).status, 404);

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { notFound } from "next/navigation";
 import { pages } from "../../lib/site-pages";
+import "../page-layout.css";
 
 type PageProps = { params: Promise<{ path?: string[] }> };
 
@@ -25,7 +26,17 @@ export default async function Page({ params }: PageProps) {
         rel="stylesheet"
         href={`/original-assets/${page.cssKey ? page.cssKey + "/" : ""}All.Pages.css`}
       />
-      {page.content}
+      <div
+        className={
+          /(?:Folgen|Episodes)$/.test(page.cssKey)
+            ? "episode-page"
+            : /(?:Staffel|Season)\d+$/.test(page.cssKey)
+              ? "season-page"
+              : undefined
+        }
+      >
+        {page.content}
+      </div>
     </>
   );
 }

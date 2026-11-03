@@ -20,8 +20,8 @@ export default function Player({ src }: { src: string }) {
       autoplay: false,
       playsinline: true,
       preload: "metadata",
-      width: 640,
-      height: 360,
+      fluid: true,
+      aspectRatio: "16:9",
       playbackRates: [0.5, 0.75, 1, 1.25, 1.5, 2],
       sources: [{ src, type: "video/mp4" }],
     });
@@ -35,7 +35,7 @@ export default function Player({ src }: { src: string }) {
   return (
     <>
       <div data-vjs-player data-video-src={src}>
-        <div ref={container} style={{ width: 640, height: 360 }} />
+        <div ref={container} className="player-mount" />
       </div>
       {failedSource === src && (
         <p role="alert">

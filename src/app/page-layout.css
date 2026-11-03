@@ -1,0 +1,69 @@
+/* Layout fixes only; original page colors, fonts and backgrounds stay intact. */
+.episode-page,
+.season-page {
+  min-width: 0;
+}
+
+.episode-page .Titel {
+  font-size: clamp(1.75rem, 6vw, 5rem);
+  margin-block: 0.35em;
+}
+
+.episode-page > .r2 {
+  height: auto;
+}
+
+.episode-page > .r2:has(.c2) {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.episode-page .c2 {
+  float: none;
+  width: 100%;
+  height: auto;
+  min-width: 0;
+}
+
+.episode-page [data-vjs-player] {
+  /* Reserve space for title, back link, controls and footer on short screens. */
+  width: min(640px, 100%, calc(max(120px, 100svh - 200px) * 16 / 9));
+  margin-inline: auto;
+}
+
+.player-mount {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+}
+
+.episode-page footer {
+  clear: both;
+  margin-top: 12px;
+}
+
+.season-page > .r2:has(.E, .E1) {
+  display: flex;
+  flex-wrap: nowrap;
+  align-items: center;
+  gap: 12px;
+  height: auto;
+  overflow-x: auto;
+  padding-block: 8px;
+}
+
+.season-page > .r2:has(.E, .E1) > div {
+  float: none;
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+}
+
+.season-page > .r2:has(.E, .E1) a {
+  white-space: nowrap;
+}
+
+.season-page footer {
+  clear: both;
+  margin-top: 16px;
+}

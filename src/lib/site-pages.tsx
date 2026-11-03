@@ -283,7 +283,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n      "}
-            <Link className={"Home"} href={""}>
+            <Link className={"Home"} href={"../"}>
               {"Back"}
             </Link>
             {"\r\n    "}
@@ -1796,7 +1796,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n      "}
-            <Link className={"Home"} href={""}>
+            <Link className={"Home"} href={"../"}>
               {"Zurück"}
             </Link>
             {"\r\n    "}
@@ -1828,7 +1828,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S1"} href={"/German/Staffel4"}>
+            <Link className={"S"} href={"/German/Staffel4"}>
               {"Staffel 4"}
             </Link>
             {"\r\n    "}
@@ -1852,7 +1852,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S1"} href={"/German/Staffel7"}>
+            <Link className={"S7"} href={"/German/Staffel7"}>
               {"Staffel 7"}
             </Link>
             {"\r\n    "}
