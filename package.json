@@ -1,0 +1,38 @@
+{
+  "name": "the-flash",
+  "version": "1.0.0",
+  "description": "This is The Flash",
+  "homepage": "https://github.com/FreetimeMaker/The-Flash#readme",
+  "bugs": {
+    "url": "https://github.com/FreetimeMaker/The-Flash/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/FreetimeMaker/The-Flash.git"
+  },
+  "type": "module",
+  "engines": {
+    "node": ">=20.9"
+  },
+  "dependencies": {
+    "next": "^16.4.4",
+    "react": "^19.3.1",
+    "react-dom": "^19.3.1",
+    "video.js": "8.23.0"
+  },
+  "devDependencies": {
+    "@types/node": "^26.6.6",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "typescript": "^7.0.2"
+  },
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "build:vercel": "node scripts/vercel-build.mjs",
+    "start": "next start",
+    "start:dev": "next dev",
+    "test": "npm run build && node --test test/*.test.cjs",
+    "typecheck": "tsc --noEmit"
+  }
+}

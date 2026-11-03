@@ -1,0 +1,47 @@
+import { open, readdir } from "node:fs/promises";
+import { join } from "node:path";
+import { spawnSync } from "node:child_process";
+
+async function checkVideos(directory) {
+  let count = 0;
+  for (const entry of await readdir(directory, { withFileTypes: true })) {
+    const file = join(directory, entry.name);
+    if (entry.isDirectory()) count += await checkVideos(file);
+    else if (entry.name.endsWith(".mp4")) {
+      const handle = await open(file, "r");
+      try {
+        const prefix = Buffer.alloc(128);
+        const { bytesRead } = await handle.read(prefix, 0, prefix.length, 0);
+        if (
+          prefix
+            .subarray(0, bytesRead)
+            .toString()
+            .startsWith("version https://git-lfs.github.com/spec/v1")
+        ) {
+          throw new Error(
+            `Unresolved Git LFS pointer: ${file}. Run git lfs pull before building/deploying.`,
+          );
+        }
+      } finally {
+        await handle.close();
+      }
+      count++;
+    }
+  }
+  return count;
+}
+const count = await checkVideos("public/videos");
+if (!count)
+  throw new Error(
+    "No MP4 files in public/videos. Download the Git LFS files before deploying.",
+  );
+console.log(
+  `Validated ${count} local video files; keeping them as same-origin public assets.`,
+);
+const result = spawnSync(
+  process.execPath,
+  ["node_modules/next/dist/bin/next", "build"],
+  { stdio: "inherit", env: process.env },
+);
+if (result.error) throw result.error;
+process.exitCode = result.status ?? 1;
