@@ -6,11 +6,7 @@ type PageProps = { params: Promise<{ path?: string[] }> };
 
 function getPage(parts: string[]) {
   const path = parts.join("/");
-  const key = !path
-    ? "index.html"
-    : path.endsWith(".html")
-      ? path
-      : `${path}/index.html`;
+  const key = path;
   if (!Object.hasOwn(pages, key)) notFound();
   return pages[key];
 }

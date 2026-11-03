@@ -5,7 +5,7 @@ A Next.js application built with React, TypeScript, and the App Router. All 32 o
 ## Features
 
 - German and English season and episode navigation using Next.js `Link`.
-- Page-specific titles and backward-compatible URLs such as `/German/Staffel1/Folgen/Folge1.html`.
+- Page-specific titles and clean URLs such as `/German/Staffel1/Folgen/Folge1`.
 - Video.js player with playback controls, seeking, volume, fullscreen, and playback speeds from 0.5× to 2×.
 - Original 640 × 360 player dimensions.
 - Locally bundled player JavaScript and CSS; no player CDN required.
@@ -51,7 +51,7 @@ Run these commands from the project root.
 - `public/videos` — video files managed through Git LFS.
 - `test/site.test.cjs` — HTTP integration tests.
 
-The `.html` suffix in existing URLs is retained for compatibility; these are Next.js routes, not HTML files. Overview pages are also available without `index.html`, for example `/German/Staffel1`. Links to pages that have not been implemented return 404.
+All internal page URLs are extensionless, for example `/German/Staffel1` and `/German/Staffel1/Folgen/Folge1`. Old `.html` URLs permanently redirect (HTTP 308) to the clean URLs, and `/index.html` redirects to `/`. Query parameters are preserved. Links to pages that have not been implemented return 404.
 
 ## Video files and Git LFS
 

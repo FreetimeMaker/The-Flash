@@ -11,7 +11,7 @@ export type SitePage = {
 
 /** Keys are original relative HTML paths; content contains only the original body. */
 export const pages: Record<string, SitePage> = {
-  "English/Season1/Episodes/Episode1.html": {
+  "English/Season1/Episodes/Episode1": {
     title: "The Flash Season 1 Episode 1",
     cssKey: "English/Season1/Episodes",
     content: (
@@ -29,7 +29,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/English/Season1/index.html"}>
+            <Link className={"Zuruck"} href={"/English/Season1"}>
               {"Season 1"}
             </Link>
             {"\r\n    "}
@@ -42,13 +42,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n "}
         <footer>
-          {"\r\n  © 2024 Freetime Maker\r\n  "}
+          {"\r\n  © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "English/Season1/index.html": {
+  "English/Season1": {
     title: "The Flash Season 1",
     cssKey: "English/Season1",
     content: (
@@ -66,7 +66,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"Home"} href={"/English/index.html"}>
+            <Link className={"Home"} href={"/English"}>
               {"Back"}
             </Link>
             {"\r\n    "}
@@ -74,7 +74,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode1.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode1"}>
               {"Episode 1"}
             </Link>
             {"\r\n    "}
@@ -82,7 +82,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode2.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode2"}>
               {"Episode 2"}
             </Link>
             {"\r\n    "}
@@ -90,7 +90,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode3.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode3"}>
               {"Episode 3"}
             </Link>
             {"\r\n    "}
@@ -98,7 +98,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode4.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode4"}>
               {"Episode 4"}
             </Link>
             {"\r\n    "}
@@ -106,7 +106,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode5.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode5"}>
               {"Episode 5"}
             </Link>
             {"\r\n    "}
@@ -114,7 +114,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode6.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode6"}>
               {"Episode 6"}
             </Link>
             {"\r\n    "}
@@ -122,7 +122,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode7.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode7"}>
               {"Episode 7"}
             </Link>
             {"\r\n    "}
@@ -130,7 +130,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode8.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode8"}>
               {"Episode 8"}
             </Link>
             {"\r\n    "}
@@ -138,7 +138,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode9.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode9"}>
               {"Episode 9"}
             </Link>
             {"\r\n    "}
@@ -146,7 +146,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode10.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode10"}>
               {"Episode 10"}
             </Link>
             {"\r\n    "}
@@ -154,7 +154,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode11.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode11"}>
               {"Episode 11"}
             </Link>
             {"\r\n    "}
@@ -162,7 +162,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode12.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode12"}>
               {"Episode 12"}
             </Link>
             {"\r\n    "}
@@ -170,7 +170,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E1"} href={"/English/Season1/Episodes/Episode13.html"}>
+            <Link className={"E1"} href={"/English/Season1/Episodes/Episode13"}>
               {"Episode 13"}
             </Link>
             {"\r\n    "}
@@ -178,7 +178,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode14.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode14"}>
               {"Episode 14"}
             </Link>
             {"\r\n    "}
@@ -186,7 +186,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode15.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode15"}>
               {"Episode 15"}
             </Link>
             {"\r\n    "}
@@ -194,7 +194,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode16.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode16"}>
               {"Episode 16"}
             </Link>
             {"\r\n    "}
@@ -202,7 +202,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode17.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode17"}>
               {"Episode 17"}
             </Link>
             {"\r\n    "}
@@ -210,7 +210,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode18.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode18"}>
               {"Episode 18"}
             </Link>
             {"\r\n    "}
@@ -218,7 +218,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode19.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode19"}>
               {"Episode 19"}
             </Link>
             {"\r\n    "}
@@ -226,7 +226,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode20.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode20"}>
               {"Episode 20"}
             </Link>
             {"\r\n    "}
@@ -234,7 +234,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode21.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode21"}>
               {"Episode 21"}
             </Link>
             {"\r\n    "}
@@ -242,7 +242,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode22.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode22"}>
               {"Episode 22"}
             </Link>
             {"\r\n    "}
@@ -250,7 +250,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/English/Season1/Episodes/Episode23.html"}>
+            <Link className={"E"} href={"/English/Season1/Episodes/Episode23"}>
               {"Episode 23"}
             </Link>
             {"\r\n    "}
@@ -259,13 +259,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "English/index.html": {
+  "English": {
     title: "The Flash English",
     cssKey: "English",
     content: (
@@ -283,7 +283,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n      "}
-            <Link className={"Home"} href={"/index.html"}>
+            <Link className={"Home"} href={""}>
               {"Back"}
             </Link>
             {"\r\n    "}
@@ -291,7 +291,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/English/Season1/index.html"}>
+            <Link className={"S"} href={"/English/Season1"}>
               {"Season 1"}
             </Link>
             {"\r\n    "}
@@ -299,7 +299,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/English/Season2/index.html"}>
+            <Link className={"S"} href={"/English/Season2"}>
               {"Season 2"}
             </Link>
             {"\r\n    "}
@@ -307,7 +307,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/English/Season3/index.html"}>
+            <Link className={"S"} href={"/English/Season3"}>
               {"Season 3"}
             </Link>
             {"\r\n    "}
@@ -315,7 +315,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S1"} href={"/English/Season4/index.html"}>
+            <Link className={"S1"} href={"/English/Season4"}>
               {"Season 4"}
             </Link>
             {"\r\n    "}
@@ -323,7 +323,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/English/Season5/index.html"}>
+            <Link className={"S"} href={"/English/Season5"}>
               {"Season 5"}
             </Link>
             {"\r\n    "}
@@ -331,7 +331,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/English/Season6/index.html"}>
+            <Link className={"S"} href={"/English/Season6"}>
               {"Season 6"}
             </Link>
             {"\r\n    "}
@@ -339,7 +339,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S1"} href={"/English/Seasonl7/index.html"}>
+            <Link className={"S1"} href={"/English/Seasonl7"}>
               {"Season 7"}
             </Link>
             {"\r\n    "}
@@ -347,7 +347,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/English/Season8/index.html"}>
+            <Link className={"S"} href={"/English/Season8"}>
               {"Season 8"}
             </Link>
             {"\r\n    "}
@@ -355,7 +355,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/English/Season9/index.html"}>
+            <Link className={"S"} href={"/English/Season9"}>
               {"Season 9"}
             </Link>
             {"\r\n    "}
@@ -364,13 +364,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge1.html": {
+  "German/Staffel1/Folgen/Folge1": {
     title: "The Flash Staffel 1 Folge 1",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -388,7 +388,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -401,14 +401,14 @@ export const pages: Record<string, SitePage> = {
           </div>
           {"\r\n    "}
           <footer>
-            {"\r\n      © 2024 Freetime Maker\r\n    "}
+            {"\r\n      © 2026 Freetime Maker\r\n    "}
           </footer>
           {"\r\n"}
         </div>
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge10.html": {
+  "German/Staffel1/Folgen/Folge10": {
     title: "The Flash Staffel 1 Folge 10",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -426,7 +426,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -441,13 +441,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge11.html": {
+  "German/Staffel1/Folgen/Folge11": {
     title: "The Flash Staffel 1 Folge 11",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -465,7 +465,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -480,13 +480,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge12.html": {
+  "German/Staffel1/Folgen/Folge12": {
     title: "The Flash Staffel 1 Folge 12",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -504,7 +504,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -519,13 +519,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge13.html": {
+  "German/Staffel1/Folgen/Folge13": {
     title: "The Flash Staffel 1 Folge 13",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -543,7 +543,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -558,13 +558,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge14.html": {
+  "German/Staffel1/Folgen/Folge14": {
     title: "The Flash Staffel 1 Folge 14",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -582,7 +582,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -597,13 +597,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge15.html": {
+  "German/Staffel1/Folgen/Folge15": {
     title: "The Flash Staffel 1 Folge 15",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -621,7 +621,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -636,13 +636,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge16.html": {
+  "German/Staffel1/Folgen/Folge16": {
     title: "The Flash Staffel 1 Folge 16",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -660,7 +660,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -675,13 +675,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge17.html": {
+  "German/Staffel1/Folgen/Folge17": {
     title: "The Flash Staffel 1 Folge 17",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -699,7 +699,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -714,13 +714,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge18.html": {
+  "German/Staffel1/Folgen/Folge18": {
     title: "The Flash Staffel 1 Folge 18",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -738,7 +738,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -753,13 +753,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge19.html": {
+  "German/Staffel1/Folgen/Folge19": {
     title: "The Flash Staffel 1 Folge 19",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -777,7 +777,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -792,13 +792,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge2.html": {
+  "German/Staffel1/Folgen/Folge2": {
     title: "The Flash Staffel 1 Folge 2",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -816,7 +816,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -831,13 +831,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge20.html": {
+  "German/Staffel1/Folgen/Folge20": {
     title: "The Flash Staffel 1 Folge 20",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -855,7 +855,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -870,13 +870,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge21.html": {
+  "German/Staffel1/Folgen/Folge21": {
     title: "The Flash Staffel 1 Folge 21",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -894,7 +894,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -909,13 +909,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge22.html": {
+  "German/Staffel1/Folgen/Folge22": {
     title: "The Flash Staffel 1 Folge 22",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -933,7 +933,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -948,13 +948,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge23.html": {
+  "German/Staffel1/Folgen/Folge23": {
     title: "The Flash Staffel 1 Folge 23",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -972,7 +972,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -987,13 +987,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge3.html": {
+  "German/Staffel1/Folgen/Folge3": {
     title: "The Flash Staffel 1 Folge 3",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -1011,7 +1011,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1026,13 +1026,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge4.html": {
+  "German/Staffel1/Folgen/Folge4": {
     title: "The Flash Staffel 1 Folge 4",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -1050,7 +1050,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1065,13 +1065,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge5.html": {
+  "German/Staffel1/Folgen/Folge5": {
     title: "The Flash Staffel 1 Folge 5",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -1089,7 +1089,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1104,13 +1104,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge6.html": {
+  "German/Staffel1/Folgen/Folge6": {
     title: "The Flash Staffel 1 Folge 6",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -1128,7 +1128,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1143,13 +1143,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge7.html": {
+  "German/Staffel1/Folgen/Folge7": {
     title: "The Flash Staffel 1 Folge 7",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -1167,7 +1167,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1182,13 +1182,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge8.html": {
+  "German/Staffel1/Folgen/Folge8": {
     title: "The Flash Staffel 1 Folge 8",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -1206,7 +1206,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1221,13 +1221,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/Folgen/Folge9.html": {
+  "German/Staffel1/Folgen/Folge9": {
     title: "The Flash Staffel 1 Folge 9",
     cssKey: "German/Staffel1/Folgen",
     content: (
@@ -1245,7 +1245,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel1/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1260,13 +1260,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel1/index.html": {
+  "German/Staffel1": {
     title: "The Flash Staffel 1",
     cssKey: "German/Staffel1",
     content: (
@@ -1284,7 +1284,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"Home"} href={"/German/index.html"}>
+            <Link className={"Home"} href={"/German"}>
               {"Zurück"}
             </Link>
             {"\r\n    "}
@@ -1292,7 +1292,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge1.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge1"}>
               {"Folge 1"}
             </Link>
             {"\r\n    "}
@@ -1300,7 +1300,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge2.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge2"}>
               {"Folge 2"}
             </Link>
             {"\r\n    "}
@@ -1308,7 +1308,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge3.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge3"}>
               {"Folge 3"}
             </Link>
             {"\r\n    "}
@@ -1316,7 +1316,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge4.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge4"}>
               {"Folge 4"}
             </Link>
             {"\r\n    "}
@@ -1324,7 +1324,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge5.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge5"}>
               {"Folge 5"}
             </Link>
             {"\r\n    "}
@@ -1332,7 +1332,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge6.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge6"}>
               {"Folge 6"}
             </Link>
             {"\r\n    "}
@@ -1340,7 +1340,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge7.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge7"}>
               {"Folge 7"}
             </Link>
             {"\r\n    "}
@@ -1348,7 +1348,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge8.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge8"}>
               {"Folge 8"}
             </Link>
             {"\r\n    "}
@@ -1356,7 +1356,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge9.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge9"}>
               {"Folge 9"}
             </Link>
             {"\r\n    "}
@@ -1364,7 +1364,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge10.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge10"}>
               {"Folge 10"}
             </Link>
             {"\r\n    "}
@@ -1372,7 +1372,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge11.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge11"}>
               {"Folge 11"}
             </Link>
             {"\r\n    "}
@@ -1380,7 +1380,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge12.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge12"}>
               {"Folge 12"}
             </Link>
             {"\r\n    "}
@@ -1388,7 +1388,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E1"} href={"/German/Staffel1/Folgen/Folge13.html"}>
+            <Link className={"E1"} href={"/German/Staffel1/Folgen/Folge13"}>
               {"Folge 13"}
             </Link>
             {"\r\n    "}
@@ -1396,7 +1396,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge14.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge14"}>
               {"Folge 14"}
             </Link>
             {"\r\n    "}
@@ -1404,7 +1404,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge15.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge15"}>
               {"Folge 15"}
             </Link>
             {"\r\n    "}
@@ -1412,7 +1412,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge16.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge16"}>
               {"Folge 16"}
             </Link>
             {"\r\n    "}
@@ -1420,7 +1420,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge17.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge17"}>
               {"Folge 17"}
             </Link>
             {"\r\n    "}
@@ -1428,7 +1428,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge18.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge18"}>
               {"Folge 18"}
             </Link>
             {"\r\n    "}
@@ -1436,7 +1436,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge19.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge19"}>
               {"Folge 19"}
             </Link>
             {"\r\n    "}
@@ -1444,7 +1444,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge20.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge20"}>
               {"Folge 20"}
             </Link>
             {"\r\n    "}
@@ -1452,7 +1452,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge21.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge21"}>
               {"Folge 21"}
             </Link>
             {"\r\n    "}
@@ -1460,7 +1460,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge22.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge22"}>
               {"Folge 22"}
             </Link>
             {"\r\n    "}
@@ -1468,7 +1468,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge23.html"}>
+            <Link className={"E"} href={"/German/Staffel1/Folgen/Folge23"}>
               {"Folge 23"}
             </Link>
             {"\r\n    "}
@@ -1477,13 +1477,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel2/Folgen/Folge1.html": {
+  "German/Staffel2/Folgen/Folge1": {
     title: "The Flash Staffel 2 Folge 1",
     cssKey: "German/Staffel2/Folgen",
     content: (
@@ -1501,7 +1501,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel2/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel2"}>
               {"Staffel 2"}
             </Link>
             {"\r\n    "}
@@ -1516,13 +1516,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel2/Folgen/Folge2.html": {
+  "German/Staffel2/Folgen/Folge2": {
     title: "The Flash Staffel 2 Folge 2",
     cssKey: "German/Staffel2/Folgen",
     content: (
@@ -1540,7 +1540,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"Zuruck"} href={"/German/Staffel2/index.html"}>
+            <Link className={"Zuruck"} href={"/German/Staffel2"}>
               {"Staffel 2"}
             </Link>
             {"\r\n    "}
@@ -1555,13 +1555,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/Staffel2/index.html": {
+  "German/Staffel2": {
     title: "The Flash Staffel 2",
     cssKey: "German/Staffel2",
     content: (
@@ -1579,7 +1579,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"Home"} href={"/German/index.html"}>
+            <Link className={"Home"} href={"/German"}>
               {"Zurück"}
             </Link>
             {"\r\n    "}
@@ -1587,7 +1587,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge1.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge1"}>
               {"Folge 1"}
             </Link>
             {"\r\n    "}
@@ -1595,7 +1595,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge2.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge2"}>
               {"Folge 2"}
             </Link>
             {"\r\n    "}
@@ -1603,7 +1603,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"24"}>
             {"\r\n        "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge3.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge3"}>
               {"Folge 3"}
             </Link>
             {"\r\n    "}
@@ -1611,7 +1611,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge4.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge4"}>
               {"Folge 4"}
             </Link>
             {"\r\n    "}
@@ -1619,7 +1619,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge5.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge5"}>
               {"Folge 5"}
             </Link>
             {"\r\n    "}
@@ -1627,7 +1627,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge6.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge6"}>
               {"Folge 6"}
             </Link>
             {"\r\n    "}
@@ -1635,7 +1635,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge7.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge7"}>
               {"Folge 7"}
             </Link>
             {"\r\n    "}
@@ -1643,7 +1643,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge8.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge8"}>
               {"Folge 8"}
             </Link>
             {"\r\n    "}
@@ -1651,7 +1651,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge9.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge9"}>
               {"Folge 9"}
             </Link>
             {"\r\n    "}
@@ -1659,7 +1659,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge10.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge10"}>
               {"Folge 10"}
             </Link>
             {"\r\n    "}
@@ -1667,7 +1667,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge11.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge11"}>
               {"Folge 11"}
             </Link>
             {"\r\n    "}
@@ -1675,7 +1675,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge12.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge12"}>
               {"Folge 12"}
             </Link>
             {"\r\n    "}
@@ -1683,7 +1683,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E1"} href={"/German/Staffel2/Folgen/Folge13.html"}>
+            <Link className={"E1"} href={"/German/Staffel2/Folgen/Folge13"}>
               {"Folge 13"}
             </Link>
             {"\r\n    "}
@@ -1691,7 +1691,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge14.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge14"}>
               {"Folge 14"}
             </Link>
             {"\r\n    "}
@@ -1699,7 +1699,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge15.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge15"}>
               {"Folge 15"}
             </Link>
             {"\r\n    "}
@@ -1707,7 +1707,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge16.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge16"}>
               {"Folge 16"}
             </Link>
             {"\r\n    "}
@@ -1715,7 +1715,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge17.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge17"}>
               {"Folge 17"}
             </Link>
             {"\r\n    "}
@@ -1723,7 +1723,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge18.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge18"}>
               {"Folge 18"}
             </Link>
             {"\r\n    "}
@@ -1731,7 +1731,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge19.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge19"}>
               {"Folge 19"}
             </Link>
             {"\r\n    "}
@@ -1739,7 +1739,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge20.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge20"}>
               {"Folge 20"}
             </Link>
             {"\r\n    "}
@@ -1747,7 +1747,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge21.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge21"}>
               {"Folge 21"}
             </Link>
             {"\r\n    "}
@@ -1755,7 +1755,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge22.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge22"}>
               {"Folge 22"}
             </Link>
             {"\r\n    "}
@@ -1763,7 +1763,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c24"}>
             {"\r\n      "}
-            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge23.html"}>
+            <Link className={"E"} href={"/German/Staffel2/Folgen/Folge23"}>
               {"Folge 23"}
             </Link>
             {"\r\n    "}
@@ -1772,13 +1772,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "German/index.html": {
+  "German": {
     title: "The Flash Deutsch",
     cssKey: "German",
     content: (
@@ -1796,7 +1796,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n      "}
-            <Link className={"Home"} href={"/index.html"}>
+            <Link className={"Home"} href={""}>
               {"Zurück"}
             </Link>
             {"\r\n    "}
@@ -1804,7 +1804,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/German/Staffel1/index.html"}>
+            <Link className={"S"} href={"/German/Staffel1"}>
               {"Staffel 1"}
             </Link>
             {"\r\n    "}
@@ -1812,7 +1812,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/German/Staffel2/index.html"}>
+            <Link className={"S"} href={"/German/Staffel2"}>
               {"Staffel 2"}
             </Link>
             {"\r\n    "}
@@ -1820,7 +1820,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/German/Staffel3/index.html"}>
+            <Link className={"S"} href={"/German/Staffel3"}>
               {"Staffel 3"}
             </Link>
             {"\r\n    "}
@@ -1828,7 +1828,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S1"} href={"/German/Staffel4/index.html"}>
+            <Link className={"S1"} href={"/German/Staffel4"}>
               {"Staffel 4"}
             </Link>
             {"\r\n    "}
@@ -1836,7 +1836,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/German/Staffel5/index.html"}>
+            <Link className={"S"} href={"/German/Staffel5"}>
               {"Staffel 5"}
             </Link>
             {"\r\n    "}
@@ -1844,7 +1844,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/German/Staffel6/index.html"}>
+            <Link className={"S"} href={"/German/Staffel6"}>
               {"Staffel 6"}
             </Link>
             {"\r\n    "}
@@ -1852,7 +1852,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S1"} href={"/German/Staffel7/index.html"}>
+            <Link className={"S1"} href={"/German/Staffel7"}>
               {"Staffel 7"}
             </Link>
             {"\r\n    "}
@@ -1860,7 +1860,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/German/Staffel8/index.html"}>
+            <Link className={"S"} href={"/German/Staffel8"}>
               {"Staffel 8"}
             </Link>
             {"\r\n    "}
@@ -1868,7 +1868,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c10"}>
             {"\r\n        "}
-            <Link className={"S"} href={"/German/Staffel9/index.html"}>
+            <Link className={"S"} href={"/German/Staffel9"}>
               {"Staffel 9"}
             </Link>
             {"\r\n    "}
@@ -1877,13 +1877,13 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n  "}
         <footer>
-          {"\r\n    © 2024 Freetime Maker\r\n  "}
+          {"\r\n    © 2026 Freetime Maker\r\n  "}
         </footer>
         {"\r\n"}
       </>
     ),
   },
-  "index.html": {
+  "": {
     title: "The Flash",
     cssKey: "",
     content: (
@@ -1901,7 +1901,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link href={"/German/index.html"}>
+            <Link href={"/German"}>
               {"\r\n        "}
               <img src={"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Germany_%283-2%29.svg/250px-Flag_of_Germany_%283-2%29.svg.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"} />
               {"\r\n      "}
@@ -1911,7 +1911,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link href={"/English/index.html"}>
+            <Link href={"/English"}>
               {"\r\n        "}
               <img src={"https://cdn.pixabay.com/photo/2012/04/23/16/15/flags-38754_1280.png"} />
               {"\r\n      "}
@@ -1935,7 +1935,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"English"} href={"/English/index.html"}>
+            <Link className={"English"} href={"/English"}>
               {"English"}
             </Link>
             {"\r\n    "}
@@ -1943,7 +1943,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"German"} href={"/German/index.html"}>
+            <Link className={"German"} href={"/German"}>
               {"Deutsch"}
             </Link>
             {"\r\n    "}
@@ -1960,7 +1960,7 @@ export const pages: Record<string, SitePage> = {
         </div>
         {"\r\n\r\n    "}
         <footer>
-          {"\r\n      © 2024 Freetime Maker\r\n    "}
+          {"\r\n      © 2026 Freetime Maker\r\n    "}
         </footer>
         {"\r\n"}
       </>

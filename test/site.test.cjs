@@ -68,9 +68,7 @@ test("preserves original homepage markup and page-specific styles", async () => 
 test("all 32 converted TSX pages render with original titles", async () => {
   const { readFile } = require("node:fs/promises");
   const source = await readFile("src/lib/site-pages.tsx", "utf8");
-  const entries = [
-    ...source.matchAll(/^  "([^"]+\.html)": \{\s+title: "([^"]+)"/gm),
-  ];
+  const entries = [...source.matchAll(/^  "([^"]*)": \{\s+title: "([^"]+)"/gm)];
   assert.equal(entries.length, 32);
   assert.doesNotMatch(
     source,
@@ -81,10 +79,32 @@ test("all 32 converted TSX pages render with original titles", async () => {
     assert.equal(response.status, 200, path);
     const html = await response.text();
     assert.ok(html.includes("<title>" + title + "</title>"), path);
-    if (/(?:Folge|Episode)\d+\.html$/.test(path))
+    if (/(?:Folge|Episode)\d+$/.test(path))
       assert.match(html, /data-vjs-player/);
   }
   assert.equal((await fetch(base + "/German/Staffel1")).status, 200);
+});
+test("redirects old HTML URLs and uses extensionless navigation", async () => {
+  for (const [old, clean] of [
+    ["/index.html", "/"],
+    ["/German/index.html", "/German"],
+    ["/German/Staffel1/index.html", "/German/Staffel1"],
+    ["/German/Staffel1/Folgen/Folge1.html", "/German/Staffel1/Folgen/Folge1"],
+  ]) {
+    const response = await fetch(base + old + "?test=1", {
+      redirect: "manual",
+    });
+    assert.equal(response.status, 308);
+    const target = new URL(response.headers.get("location"), base);
+    assert.equal(target.pathname, clean);
+    assert.equal(target.searchParams.get("test"), "1");
+  }
+  const html = await (await fetch(base + "/German/Staffel1")).text();
+  assert.doesNotMatch(html, /href="[^"]*\.html/);
+  assert.equal(
+    (await fetch(base + "/German/Staffel1/Folgen/Folge1")).status,
+    200,
+  );
 });
 test("renders players for German and English episodes", async () => {
   for (const path of [
