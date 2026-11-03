@@ -1,13 +1,12 @@
 const { test } = require("node:test");
 const assert = require("node:assert/strict");
 const { readFileSync } = require("node:fs");
-const ts = require("typescript");
-const compiled = ts.transpileModule(readFileSync("src/lib/video.ts", "utf8"), {
-  compilerOptions: {
-    module: ts.ModuleKind.ESNext,
-    target: ts.ScriptTarget.ES2022,
-  },
-}).outputText;
+const { transformSync } = require("next/dist/build/swc");
+const compiled = transformSync(readFileSync("src/lib/video.ts", "utf8"), {
+  filename: "video.ts",
+  jsc: { parser: { syntax: "typescript" }, target: "es2022" },
+  module: { type: "es6" },
+}).code;
 const modulePromise = import(
   "data:text/javascript;base64," + Buffer.from(compiled).toString("base64")
 );

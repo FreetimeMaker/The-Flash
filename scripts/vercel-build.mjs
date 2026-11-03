@@ -1,4 +1,5 @@
-import { open, readdir } from "node:fs/promises";
+import { readdir } from "node:fs/promises";
+import { hydrateVideo } from "./lfs-download.mjs";
 import { join } from "node:path";
 import { spawnSync } from "node:child_process";
 
@@ -8,23 +9,7 @@ async function checkVideos(directory) {
     const file = join(directory, entry.name);
     if (entry.isDirectory()) count += await checkVideos(file);
     else if (entry.name.endsWith(".mp4")) {
-      const handle = await open(file, "r");
-      try {
-        const prefix = Buffer.alloc(128);
-        const { bytesRead } = await handle.read(prefix, 0, prefix.length, 0);
-        if (
-          prefix
-            .subarray(0, bytesRead)
-            .toString()
-            .startsWith("version https://git-lfs.github.com/spec/v1")
-        ) {
-          throw new Error(
-            `Unresolved Git LFS pointer: ${file}. Run git lfs pull before building/deploying.`,
-          );
-        }
-      } finally {
-        await handle.close();
-      }
+      await hydrateVideo(file);
       count++;
     }
   }

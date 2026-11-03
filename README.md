@@ -144,7 +144,9 @@ The two current MP4 files total approximately 1.14 GB. They must not be bundled 
 
 **Deployment size limitation:** this configuration does not bypass Vercel upload, static-file, or bandwidth limits. The documented CLI source-upload limits are 100 MB on Hobby and 1 GB on Pro; these videos exceed both in total. A direct CLI source upload of the current repository therefore exceeds those limits. Check the limits of your actual deployment method and plan before deploying. If Vercel rejects the assets, reduce the media size or use a hosting plan/provider that supports this same-origin deployment. Successful local builds do not prove Vercel will accept the videos. See [Vercel limits](https://vercel.com/docs/limits).
 
-The actual Git LFS media must exist in the build workspace before the build runs. Do not assume Vercel's Git import downloads LFS content automatically. Use a checkout/deployment pipeline with Git LFS support or otherwise provide the real files before building. The build fails explicitly if it finds an LFS pointer or no MP4 files; it does not silently publish unplayable pointers.
+Vercel's Git checkout may contain LFS pointers instead of media. `npm run build:vercel` automatically downloads those objects through the GitHub Git LFS batch API for `FreetimeMaker/The-Flash`, streams them to temporary files, and verifies their size and SHA-256 before replacing each pointer. This does not require Git metadata or an installed Git LFS executable. The download occurs only during the build; viewers still load videos from this site's own `/videos/...` URLs.
+
+Public LFS downloads are attempted without credentials. If GitHub requires authentication, add a sensitive **GITHUB_LFS_TOKEN** environment variable in Vercel, scoped to the required environments, with read access to the repository's LFS objects. Never use a `NEXT_PUBLIC_` prefix or commit the token. Ensure the actual LFS objects have been pushed and GitHub LFS quota is available. Failed downloads or checksum mismatches stop the build rather than publishing pointers. Downloading the media can consume GitHub LFS transfer quota on each clean build.
 
 ### 2. Import and deploy the repository
 
@@ -165,7 +167,7 @@ The Vercel build validates the local media and keeps `public/videos` intact. `.v
 5. Wait for Vercel to show a valid domain configuration and provision HTTPS.
 6. Verify the homepage, an episode, playback, seeking, and fullscreen at `https://flash.free-time.me`. Also verify an API video URL redirects to `/videos/...` on the same domain.
 
-Repository configuration alone cannot register the domain, create DNS records, download LFS media in a remote build, or deploy to your Vercel account. Those steps require access to the relevant accounts. Preview deployments are not forced to redirect to the production domain.
+Repository configuration alone cannot register the domain, create DNS records, or deploy to your Vercel account. Those steps require access to the relevant accounts. Preview deployments are not forced to redirect to the production domain.
 
 ## Self-hosting and access
 
