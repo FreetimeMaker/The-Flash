@@ -1,69 +1,193 @@
 /* Layout fixes only; original page colors, fonts and backgrounds stay intact. */
+html {
+    -webkit-text-size-adjust: 100%;
+}
+body {
+    background-position: center top;
+}
+
+:is(.home-page, .language-page, .season-page, .episode-page) {
+    min-width: 0;
+    padding-inline: env(safe-area-inset-left, 0px)
+        env(safe-area-inset-right, 0px);
+}
+
+:is(.home-page, .language-page, .season-page) .Titel {
+    font-size: clamp(2rem, 7vw, 5rem);
+    line-height: 1.2;
+    margin-block: 0.6em;
+    overflow-wrap: anywhere;
+}
+
+:is(.home-page, .language-page, .season-page, .episode-page) a:focus-visible {
+    outline: 3px solid orange;
+    outline-offset: 3px;
+}
+
+:is(.home-page, .language-page, .season-page, .episode-page) footer {
+    clear: both;
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    overflow-wrap: anywhere;
+}
+
+.home-page > .r3:has(.c2) {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    align-items: center;
+    gap: clamp(4px, 2vw, 24px);
+    height: auto;
+}
+
+.home-page .c2 {
+    width: auto;
+    height: auto;
+    float: none;
+    min-width: 0;
+    text-align: center;
+}
+
+.home-page .c2 a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 44px;
+}
+
+.home-page .c2 img {
+    box-sizing: border-box;
+    width: min(100%, 240px);
+    max-width: 100%;
+    max-height: none;
+    height: auto;
+    border-width: clamp(3px, 0.6vw, 7px);
+}
+
+.home-page :is(.German, .English, .Snap) {
+    font-size: clamp(1rem, 3vw, 1.5rem);
+    overflow-wrap: anywhere;
+}
+
+.language-page > .r2:has(.c10) {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min(110px, 100%), 1fr));
+    gap: 12px;
+    height: auto;
+}
+
+.language-page .c10 {
+    float: none;
+    width: auto;
+    height: auto;
+    min-width: 0;
+}
+
+.language-page .c10 a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 44px;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.season-page > .r2:has(.E, .E1) a,
+.episode-page .Zuruck {
+    display: inline-flex;
+    align-items: center;
+    min-height: 44px;
+    padding-inline: 8px;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+    .home-page .c2 img:hover {
+        transform: none;
+    }
+    .home-page footer {
+        margin-top: 20px;
+    }
+    .language-page > .r2:has(.c10) {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+    .season-page > .r2:has(.E, .E1) {
+        overscroll-behavior-x: contain;
+        scroll-snap-type: x proximity;
+    }
+    .season-page > .r2:has(.E, .E1) > div {
+        scroll-snap-align: start;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .home-page .c2 img {
+        transition: none;
+    }
+}
 .episode-page,
 .season-page {
-  min-width: 0;
+    min-width: 0;
 }
 
 .episode-page .Titel {
-  font-size: clamp(1.75rem, 6vw, 5rem);
-  margin-block: 0.35em;
+    font-size: clamp(1.75rem, 6vw, 5rem);
+    margin-block: 0.35em;
 }
 
 .episode-page > .r2 {
-  height: auto;
+    height: auto;
 }
 
 .episode-page > .r2:has(.c2) {
-  display: flex;
-  flex-direction: column;
-  gap: 12px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
 }
 
 .episode-page .c2 {
-  float: none;
-  width: 100%;
-  height: auto;
-  min-width: 0;
+    float: none;
+    width: 100%;
+    height: auto;
+    min-width: 0;
 }
 
 .episode-page [data-vjs-player] {
-  /* Reserve space for title, back link, controls and footer on short screens. */
-  width: min(640px, 100%, calc(max(120px, 100svh - 200px) * 16 / 9));
-  margin-inline: auto;
+    /* Reserve space for title, back link, controls and footer on short screens. */
+    width: min(640px, 100%, calc(max(120px, 100svh - 200px) * 16 / 9));
+    margin-inline: auto;
 }
 
 .player-mount {
-  width: 100%;
-  aspect-ratio: 16 / 9;
+    width: 100%;
+    aspect-ratio: 16 / 9;
 }
 
 .episode-page footer {
-  clear: both;
-  margin-top: 12px;
+    clear: both;
+    margin-top: 12px;
 }
 
 .season-page > .r2:has(.E, .E1) {
-  display: flex;
-  flex-wrap: nowrap;
-  align-items: center;
-  gap: 12px;
-  height: auto;
-  overflow-x: auto;
-  padding-block: 8px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    gap: 12px;
+    height: auto;
+    overflow-x: auto;
+    padding-block: 8px;
 }
 
 .season-page > .r2:has(.E, .E1) > div {
-  float: none;
-  flex: 0 0 auto;
-  width: auto;
-  height: auto;
+    float: none;
+    flex: 0 0 auto;
+    width: auto;
+    height: auto;
 }
 
 .season-page > .r2:has(.E, .E1) a {
-  white-space: nowrap;
+    white-space: nowrap;
 }
 
 .season-page footer {
-  clear: both;
-  margin-top: 16px;
+    clear: both;
+    margin-top: 16px;
 }

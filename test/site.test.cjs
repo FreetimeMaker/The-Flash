@@ -69,7 +69,9 @@ test("preserves original homepage markup and page-specific styles", async () => 
 test("all 32 converted TSX pages render with original titles", async () => {
   const { readFile } = require("node:fs/promises");
   const source = await readFile("src/lib/site-pages.tsx", "utf8");
-  const entries = [...source.matchAll(/^  "([^"]*)": \{\s+title: "([^"]+)"/gm)];
+  const entries = [
+    ...source.matchAll(/^  "?([^":\r\n]*)"?: \{\s+title: "([^"]+)"/gm),
+  ];
   assert.equal(entries.length, 32);
   assert.doesNotMatch(
     source,
@@ -84,6 +86,21 @@ test("all 32 converted TSX pages render with original titles", async () => {
       assert.match(html, /data-vjs-player/);
   }
   assert.equal((await fetch(base + "/German/Staffel1")).status, 200);
+});
+test("uses responsive layouts and a mobile viewport", async () => {
+  for (const [path, layout] of [
+    ["/", "home-page"],
+    ["/German", "language-page"],
+    ["/German/Staffel1", "season-page"],
+    ["/German/Staffel1/Folgen/Folge1", "episode-page"],
+  ]) {
+    const html = await (await fetch(base + path)).text();
+    assert.ok(html.includes('class="' + layout + '"'));
+    assert.match(
+      html,
+      /name="viewport" content="width=device-width, initial-scale=1"/,
+    );
+  }
 });
 test("redirects old HTML URLs and uses extensionless navigation", async () => {
   for (const [old, clean] of [

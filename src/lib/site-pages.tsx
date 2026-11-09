@@ -19,9 +19,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Episode 1"}
-          </h1>
+          <h1 className={"Titel"}>{"Episode 1"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -36,14 +34,14 @@ export const pages: Record<string, SitePage> = {
           </div>
           {"\r\n    "}
           <div className={"c2"}>
-            <Player src={"/api/videos/English/Season1/Episodes/Videos/Episode1.mp4"} />
+            <Player
+              src={"/api/videos/English/Season1/Episodes/Videos/Episode1.mp4"}
+            />
           </div>
           {"\r\n  "}
         </div>
         {"\r\n "}
-        <footer>
-          {"\r\n  © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n  © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -56,9 +54,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Season 1"}
-          </h1>
+          <h1 className={"Titel"}>{"Season 1"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -258,14 +254,12 @@ export const pages: Record<string, SitePage> = {
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
   },
-  "English": {
+  English: {
     title: "The Flash English",
     cssKey: "English",
     content: (
@@ -273,9 +267,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"The Flash English"}
-          </h1>
+          <h1 className={"Titel"}>{"The Flash English"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -363,9 +355,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -378,9 +368,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 1"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 1"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -396,13 +384,13 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge1.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge1.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n    "}
-          <footer>
-            {"\r\n      © 2026 Freetime Maker\r\n    "}
-          </footer>
+          <footer>{"\r\n      © 2026 Freetime Maker\r\n    "}</footer>
           {"\r\n"}
         </div>
       </>
@@ -416,9 +404,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 10"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 10"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -434,15 +420,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge10.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge10.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -455,9 +441,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 11"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 11"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -473,15 +457,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge11.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge11.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -494,9 +478,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 12"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 12"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -512,15 +494,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge12.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge12.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -533,9 +515,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 13"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 13"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -551,15 +531,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge13.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge13.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -572,9 +552,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 14"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 14"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -590,15 +568,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge14.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge14.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -611,9 +589,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 15"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 15"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -629,15 +605,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge15.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge15.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -650,9 +626,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 16"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 16"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -668,15 +642,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge16.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge16.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -689,9 +663,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 17"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 17"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -707,15 +679,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge17.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge17.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -728,9 +700,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 18"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 18"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -746,15 +716,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge18.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge18.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -767,9 +737,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 19"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 19"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -785,15 +753,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge19.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge19.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -806,9 +774,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 2"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 2"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -824,15 +790,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge2.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge2.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -845,9 +811,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 20"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 20"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -863,15 +827,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge20.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge20.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -884,9 +848,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 21"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 21"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -902,15 +864,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge21.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge21.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -923,9 +885,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 22"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 22"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -941,15 +901,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n  "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge22.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge22.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -962,9 +922,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 23"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 23"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -980,15 +938,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge23.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge23.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1001,9 +959,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 3"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 3"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1019,15 +975,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge3.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge3.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1040,9 +996,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 4"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 4"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1058,15 +1012,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge4.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge4.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1079,9 +1033,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 5"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 5"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1097,15 +1049,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge5.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge5.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1118,9 +1070,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 6"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 6"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1136,15 +1086,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge6.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge6.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1157,9 +1107,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 7"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 7"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1175,15 +1123,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge7.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge7.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1196,9 +1144,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 8"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 8"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1214,15 +1160,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge8.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge8.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1235,9 +1181,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 9"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 9"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1253,15 +1197,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n     "}
-            <Player src={"/api/videos/German/Staffel1/Folgen/Videos/Folge9.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel1/Folgen/Videos/Folge9.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1274,9 +1218,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Staffel 1"}
-          </h1>
+          <h1 className={"Titel"}>{"Staffel 1"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1476,9 +1418,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1491,9 +1431,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 1"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 1"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1509,15 +1447,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Player src={"/api/videos/German/Staffel2/Folgen/Videos/Folge1.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel2/Folgen/Videos/Folge1.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1530,9 +1468,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Folge 2"}
-          </h1>
+          <h1 className={"Titel"}>{"Folge 2"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1548,15 +1484,15 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n        "}
-            <Player src={"/api/videos/German/Staffel2/Folgen/Videos/Folge2.mp4"} />
+            <Player
+              src={"/api/videos/German/Staffel2/Folgen/Videos/Folge2.mp4"}
+            />
             {"\r\n    "}
           </div>
           {"\r\n  "}
         </div>
         {"\r\n "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1569,9 +1505,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"Staffel 2"}
-          </h1>
+          <h1 className={"Titel"}>{"Staffel 2"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1771,14 +1705,12 @@ export const pages: Record<string, SitePage> = {
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
   },
-  "German": {
+  German: {
     title: "The Flash Deutsch",
     cssKey: "German",
     content: (
@@ -1786,9 +1718,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r2"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"The Flash Deutsch"}
-          </h1>
+          <h1 className={"Titel"}>{"The Flash Deutsch"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1876,9 +1806,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n  "}
         </div>
         {"\r\n  "}
-        <footer>
-          {"\r\n    © 2026 Freetime Maker\r\n  "}
-        </footer>
+        <footer>{"\r\n    © 2026 Freetime Maker\r\n  "}</footer>
         {"\r\n"}
       </>
     ),
@@ -1891,9 +1819,7 @@ export const pages: Record<string, SitePage> = {
         {"\r\n  "}
         <div className={"r3"}>
           {"\r\n    "}
-          <h1 className={"Titel"}>
-            {"The Flash"}
-          </h1>
+          <h1 className={"Titel"}>{"The Flash"}</h1>
           {"\r\n  "}
         </div>
         {"\r\n  "}
@@ -1903,7 +1829,11 @@ export const pages: Record<string, SitePage> = {
             {"\r\n      "}
             <Link href={"/German"}>
               {"\r\n        "}
-              <img src={"https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Germany_%283-2%29.svg/250px-Flag_of_Germany_%283-2%29.svg.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"} />
+              <img
+                src={
+                  "https://thumb.wikimedia.org/wikipedia/commons/thumb/2/21/Flag_of_Germany_%283-2%29.svg/250px-Flag_of_Germany_%283-2%29.svg.png?utm_source=de.wikipedia.org&utm_campaign=parser&utm_content=thumbnail"
+                }
+              />
               {"\r\n      "}
             </Link>
             {"\r\n    "}
@@ -1913,7 +1843,11 @@ export const pages: Record<string, SitePage> = {
             {"\r\n      "}
             <Link href={"/English"}>
               {"\r\n        "}
-              <img src={"https://cdn.pixabay.com/photo/2012/04/23/16/15/flags-38754_1280.png"} />
+              <img
+                src={
+                  "https://cdn.pixabay.com/photo/2012/04/23/16/15/flags-38754_1280.png"
+                }
+              />
               {"\r\n      "}
             </Link>
             {"\r\n    "}
@@ -1921,9 +1855,16 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <a href={"https://snapcraft.io/freetimemaker-flash"} target={"_blank"}>
+            <a
+              href={"https://snapcraft.io/freetimemaker-flash"}
+              target={"_blank"}
+            >
               {"\r\n      "}
-              <img src={"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNj2gNhPha9V2NlwGOSTJ659f18NabS3jDQ&s"} />
+              <img
+                src={
+                  "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSqNj2gNhPha9V2NlwGOSTJ659f18NabS3jDQ&s"
+                }
+              />
               {"\r\n    "}
             </a>
             {"\r\n    "}
@@ -1935,14 +1876,6 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <Link className={"English"} href={"/English"}>
-              {"English"}
-            </Link>
-            {"\r\n    "}
-          </div>
-          {"\r\n    "}
-          <div className={"c2"}>
-            {"\r\n      "}
             <Link className={"German"} href={"/German"}>
               {"Deutsch"}
             </Link>
@@ -1951,7 +1884,19 @@ export const pages: Record<string, SitePage> = {
           {"\r\n    "}
           <div className={"c2"}>
             {"\r\n      "}
-            <a className={"Snap"} href={"https://snapcraft.io/freetimemaker-flash"} target={"_blank"}>
+            <Link className={"English"} href={"/English"}>
+              {"English"}
+            </Link>
+            {"\r\n    "}
+          </div>
+          {"\r\n    "}
+          <div className={"c2"}>
+            {"\r\n      "}
+            <a
+              className={"Snap"}
+              href={"https://snapcraft.io/freetimemaker-flash"}
+              target={"_blank"}
+            >
               {"Download"}
             </a>
             {"\r\n    "}
@@ -1959,9 +1904,7 @@ export const pages: Record<string, SitePage> = {
           {"\r\n  "}
         </div>
         {"\r\n\r\n    "}
-        <footer>
-          {"\r\n      © 2026 Freetime Maker\r\n    "}
-        </footer>
+        <footer>{"\r\n      © 2026 Freetime Maker\r\n    "}</footer>
         {"\r\n"}
       </>
     ),

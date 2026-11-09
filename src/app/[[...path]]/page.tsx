@@ -32,7 +32,9 @@ export default async function Page({ params }: PageProps) {
             ? "episode-page"
             : /(?:Staffel|Season)\d+$/.test(page.cssKey)
               ? "season-page"
-              : undefined
+              : page.cssKey
+                ? "language-page"
+                : "home-page"
         }
       >
         {page.content}
