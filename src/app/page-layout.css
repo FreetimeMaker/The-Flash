@@ -107,14 +107,43 @@ body {
         margin-top: 20px;
     }
     .language-page > .r2:has(.c10) {
-        grid-template-columns: repeat(2, minmax(0, 1fr));
+        grid-template-columns: minmax(0, 1fr);
     }
-    .season-page > .r2:has(.E, .E1) {
-        overscroll-behavior-x: contain;
-        scroll-snap-type: x proximity;
+    .home-page {
+        display: grid;
+        grid-template-columns: minmax(0, 1fr);
+        row-gap: 8px;
     }
-    .season-page > .r2:has(.E, .E1) > div {
-        scroll-snap-align: start;
+    /* Interleave each original image with its label from the separate text row. */
+    .home-page > .r3:has(.c2) {
+        display: contents;
+    }
+    .home-page > .r3:has(img) > .c2:nth-child(1) {
+        grid-row: 2;
+    }
+    .home-page > .r3:has(img) > .c2:nth-child(2) {
+        grid-row: 4;
+    }
+    .home-page > .r3:has(img) > .c2:nth-child(3) {
+        grid-row: 6;
+    }
+    .home-page > .r3:not(:has(img)) > .c2:nth-child(1) {
+        grid-row: 3;
+    }
+    .home-page > .r3:not(:has(img)) > .c2:nth-child(2) {
+        grid-row: 5;
+    }
+    .home-page > .r3:not(:has(img)) > .c2:nth-child(3) {
+        grid-row: 7;
+    }
+    .home-page > .r3:has(.Titel) {
+        grid-row: 1;
+    }
+    .home-page footer {
+        grid-row: 8;
+    }
+    .home-page .c2 img {
+        width: min(100%, 180px);
     }
 }
 
@@ -190,4 +219,18 @@ body {
 .season-page footer {
     clear: both;
     margin-top: 16px;
+}
+
+@media (max-width: 600px) {
+    .season-page > .r2:has(.E, .E1) {
+        flex-direction: column;
+        align-items: stretch;
+        overflow-x: visible;
+        gap: 8px;
+    }
+    .season-page > .r2:has(.E, .E1) a {
+        display: flex;
+        justify-content: center;
+        white-space: normal;
+    }
 }
